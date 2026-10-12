@@ -1,0 +1,168 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0f1d" />
+      <stop offset="50%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#070b14" />
+    </linearGradient>
+
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="35%" stop-color="#818cf8" />
+      <stop offset="70%" stop-color="#c084fc" />
+      <stop offset="100%" stop-color="#f472b6" />
+    </linearGradient>
+
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="rgba(30, 41, 59, 0.75)" />
+      <stop offset="100%" stop-color="rgba(15, 23, 42, 0.85)" />
+    </linearGradient>
+
+    <linearGradient id="accentLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.1" />
+      <stop offset="50%" stop-color="#818cf8" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#c084fc" stop-opacity="0.1" />
+    </linearGradient>
+
+    <!-- Glowing Filters -->
+    <filter id="glowCyan" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="24" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    <filter id="glowPurple" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="30" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    <filter id="badgeShadow" x="-10%" y="-20%" width="120%" height="150%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#000000" flood-opacity="0.45" />
+    </filter>
+
+    <!-- Grid Pattern -->
+    <pattern id="gridPattern" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(148, 163, 184, 0.07)" stroke-width="1" />
+      <circle cx="40" cy="40" r="1.5" fill="rgba(56, 189, 248, 0.18)" />
+    </pattern>
+
+    <style>
+      @keyframes floatSlow1 {
+        0%, 100% { transform: translateY(0px) rotate(0deg); }
+        50% { transform: translateY(-10px) rotate(1deg); }
+      }
+      @keyframes floatSlow2 {
+        0%, 100% { transform: translateY(0px) rotate(0deg); }
+        50% { transform: translateY(12px) rotate(-1.5deg); }
+      }
+      @keyframes floatSlow3 {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-8px); }
+      }
+      @keyframes pulseGlow {
+        0%, 100% { opacity: 0.45; transform: scale(1); }
+        50% { opacity: 0.75; transform: scale(1.12); }
+      }
+      @keyframes dashFlow {
+        from { stroke-dashoffset: 400; }
+        to { stroke-dashoffset: 0; }
+      }
+      @keyframes shimmer {
+        0% { stop-color: #38bdf8; }
+        50% { stop-color: #f472b6; }
+        100% { stop-color: #38bdf8; }
+      }
+
+      .floating-pill-1 { animation: floatSlow1 6s ease-in-out infinite; }
+      .floating-pill-2 { animation: floatSlow2 7s ease-in-out infinite; }
+      .floating-pill-3 { animation: floatSlow1 8s ease-in-out infinite; }
+      .floating-pill-4 { animation: floatSlow2 6.5s ease-in-out infinite; }
+      .ambient-orb-1 { animation: pulseGlow 9s ease-in-out infinite; transform-origin: 200px 100px; }
+      .ambient-orb-2 { animation: pulseGlow 11s ease-in-out infinite; transform-origin: 1000px 300px; }
+      .flow-path { stroke-dasharray: 12, 12; animation: dashFlow 20s linear infinite; }
+      .font-sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    </style>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="1200" height="400" rx="16" fill="url(#bgGrad)" />
+  <rect width="1200" height="400" rx="16" fill="url(#gridPattern)" />
+
+  <!-- Ambient Animated Orbs in Background -->
+  <circle class="ambient-orb-1" cx="220" cy="110" r="140" fill="#38bdf8" opacity="0.25" filter="url(#glowCyan)" />
+  <circle class="ambient-orb-2" cx="990" cy="280" r="170" fill="#8b5cf6" opacity="0.25" filter="url(#glowPurple)" />
+  <circle class="ambient-orb-1" cx="620" cy="380" r="120" fill="#ec4899" opacity="0.15" filter="url(#glowPurple)" />
+
+  <!-- Animated Pathway Flow Curves (Guiding Workflow) -->
+  <path class="flow-path" d="M 60,340 C 260,320 220,90 480,90 C 720,90 760,310 1140,290" 
+        fill="none" stroke="url(#accentLine)" stroke-width="2.5" />
+
+  <!-- Floating Decorative Edge Pills (Background/Midground, Outside Center Text) -->
+  <g class="floating-pill-1" transform="translate(60, 48)" filter="url(#badgeShadow)">
+    <rect width="195" height="36" rx="18" fill="rgba(15, 23, 42, 0.85)" stroke="#38bdf8" stroke-width="1.2" />
+    <circle cx="20" cy="18" r="6" fill="#38bdf8" />
+    <text x="34" y="23" fill="#e2e8f0" font-size="13" font-weight="600" class="font-sans">💡 In-App Guidance</text>
+  </g>
+
+  <g class="floating-pill-2" transform="translate(930, 48)" filter="url(#badgeShadow)">
+    <rect width="210" height="36" rx="18" fill="rgba(15, 23, 42, 0.85)" stroke="#818cf8" stroke-width="1.2" />
+    <circle cx="20" cy="18" r="6" fill="#818cf8" />
+    <text x="34" y="23" fill="#e2e8f0" font-size="13" font-weight="600" class="font-sans">🎯 Guided Onboarding</text>
+  </g>
+
+  <g class="floating-pill-3" transform="translate(60, 320)" filter="url(#badgeShadow)">
+    <rect width="210" height="36" rx="18" fill="rgba(15, 23, 42, 0.85)" stroke="#c084fc" stroke-width="1.2" />
+    <circle cx="20" cy="18" r="6" fill="#c084fc" />
+    <text x="34" y="23" fill="#e2e8f0" font-size="13" font-weight="600" class="font-sans">⚡ Digital Adoption (DAP)</text>
+  </g>
+
+  <g class="floating-pill-4" transform="translate(920, 320)" filter="url(#badgeShadow)">
+    <rect width="220" height="36" rx="18" fill="rgba(15, 23, 42, 0.85)" stroke="#f472b6" stroke-width="1.2" />
+    <circle cx="20" cy="18" r="6" fill="#f472b6" />
+    <text x="34" y="23" fill="#e2e8f0" font-size="13" font-weight="600" class="font-sans">🚀 Sales &amp; User Enablement</text>
+  </g>
+
+  <!-- Central Foreground Content Card (Unobstructed & High Contrast) -->
+  <g transform="translate(170, 95)">
+    <!-- Card Frame -->
+    <rect width="860" height="210" rx="20" fill="url(#cardGrad)" 
+          stroke="rgba(255, 255, 255, 0.12)" stroke-width="1.5" filter="url(#badgeShadow)" />
+    
+    <!-- Top Micro Badge -->
+    <g transform="translate(305, 20)">
+      <rect width="250" height="26" rx="13" fill="rgba(56, 189, 248, 0.12)" stroke="rgba(56, 189, 248, 0.4)" stroke-width="1" />
+      <text x="125" y="17" text-anchor="middle" fill="#38bdf8" font-size="11" font-weight="700" letter-spacing="1.2" class="font-sans">
+        CURATED ECOSYSTEM DIRECTORY
+      </text>
+    </g>
+
+    <!-- Main Title -->
+    <text x="430" y="88" text-anchor="middle" fill="url(#textGrad)" font-size="34" font-weight="900" letter-spacing="-0.5" class="font-sans">
+      AWESOME IN-APP LEARNING
+    </text>
+    <text x="430" y="122" text-anchor="middle" fill="#f8fafc" font-size="28" font-weight="800" letter-spacing="-0.3" class="font-sans">
+      &amp; ENABLEMENT PLATFORMS
+    </text>
+
+    <!-- Subtitle -->
+    <text x="430" y="156" text-anchor="middle" fill="#94a3b8" font-size="14.5" font-weight="500" class="font-sans">
+      Digital Adoption Platforms (DAP) • Product Tours • Interactive Walkthroughs • Sales Readiness
+    </text>
+
+    <!-- Bottom Feature Highlights -->
+    <g transform="translate(110, 174)">
+      <text x="0" y="14" fill="#64748b" font-size="12" class="font-sans">✦</text>
+      <text x="15" y="14" fill="#cbd5e1" font-size="12" font-weight="600" class="font-sans">Real Pricing Data</text>
+
+      <text x="155" y="14" fill="#64748b" font-size="12" class="font-sans">✦</text>
+      <text x="170" y="14" fill="#cbd5e1" font-size="12" font-weight="600" class="font-sans">Free Tier Limits</text>
+
+      <text x="305" y="14" fill="#64748b" font-size="12" class="font-sans">✦</text>
+      <text x="320" y="14" fill="#cbd5e1" font-size="12" font-weight="600" class="font-sans">Company Valuations</text>
+
+      <text x="480" y="14" fill="#64748b" font-size="12" class="font-sans">✦</text>
+      <text x="495" y="14" fill="#cbd5e1" font-size="12" font-weight="600" class="font-sans">Top Open-Source Repos</text>
+    </g>
+  </g>
+
+  <!-- Modern Border Stroke -->
+  <rect width="1198" height="398" x="1" y="1" rx="15" fill="none" stroke="rgba(255, 255, 255, 0.08)" stroke-width="1.5" />
+</svg>
