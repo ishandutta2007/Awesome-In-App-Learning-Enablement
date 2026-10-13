@@ -7,7 +7,7 @@
 <div align="center">
 
 <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-<a href="https://github.com/ishandutta2007/Awesome-In-App-Learning-Enablement/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-In-App-Learning-Enablement?style=flat-square&logo=github&color=gold" alt="GitHub Stars"/></a>
+<a href="https://github.com/ishandutta2007/Awesome-In-App-Learning-Enablement/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-In-App-Learning-Enablement?style=flat-square&logo=github&color=gold" alt="GitHub_Stars"/></a>
 <a href="https://github.com/ishandutta2007/Awesome-In-App-Learning-Enablement/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-In-App-Learning-Enablement?style=flat-square&color=blue" alt="GitHub Forks"/></a>
 <a href="https://github.com/ishandutta2007/Awesome-In-App-Learning-Enablement/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" alt="MIT License"/></a>
 <a href="https://github.com/ishandutta2007/Awesome-In-App-Learning-Enablement/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome"/></a>
@@ -73,81 +73,81 @@ The table below lists leading commercial SaaS platforms ordered by company size 
 
 Explore battle-tested, developer-friendly open-source frameworks for product tours, user onboarding, digital adoption, and in-app guidance. 
 
-> 💡 **Sorted descending by GitHub star count.** Each repository includes its official social star badge directly linking to its stargazers page.
+> 💡 **Sorted descending by GitHub Stars_Count.** Each repository includes its official social Stars_Badge directly linking to its stargazers page.
 
-1. **[Driver.js](https://github.com/kamranahmedse/driver.js)** [![GitHub stars](https://img.shields.io/github/stars/kamranahmedse/driver.js?style=social&color=white)](https://github.com/kamranahmedse/driver.js/stargazers)  
+1. **[Driver.js](https://github.com/kamranahmedse/driver.js)** [![GitHub_Stars](https://img.shields.io/github/stars/kamranahmedse/driver.js?style=social&color=white)](https://github.com/kamranahmedse/driver.js/stargazers)  
    ✨ Ultra-lightweight (~5KB gzipped), zero-dependency, vanilla JavaScript engine to drive user focus across your web application. Highly customizable popovers, keyboard navigation, smooth highlighting overlay, and multi-step walkthrough support.  
    `License: MIT` • `Stack: TypeScript / Vanilla JS`
 
-2. **[Intro.js](https://github.com/usablica/intro.js)** [![GitHub stars](https://img.shields.io/github/stars/usablica/intro.js?style=social&color=white)](https://github.com/usablica/intro.js/stargazers)  
+2. **[Intro.js](https://github.com/usablica/intro.js)** [![GitHub_Stars](https://img.shields.io/github/stars/usablica/intro.js?style=social&color=white)](https://github.com/usablica/intro.js/stargazers)  
    ✨ The most widely recognized step-by-step product guide and user onboarding library. Supports floating tooltips, progress bars, keyboard controls, and responsive positioning across modern web applications.  
    `License: AGPL-3.0 / Commercial` • `Stack: JavaScript / CSS`
 
-3. **[Shepherd.js](https://github.com/shipshapecode/shepherd)** [![GitHub stars](https://img.shields.io/github/stars/shipshapecode/shepherd?style=social&color=white)](https://github.com/shipshapecode/shepherd/stargazers)  
+3. **[Shepherd.js](https://github.com/shipshapecode/shepherd)** [![GitHub_Stars](https://img.shields.io/github/stars/shipshapecode/shepherd?style=social&color=white)](https://github.com/shipshapecode/shepherd/stargazers)  
    ✨ Fully-featured digital adoption platform (DAP) and tour library built on Floating UI. First-class official wrapper support for React, Vue.js, Angular, Ember, and Svelte. Supports custom modal steps, dark modes, and event tracking hooks.  
    `License: AGPL-3.0 / Commercial` • `Stack: TypeScript / Framework Wrappers`
 
-4. **[Formbricks](https://github.com/formbricks/formbricks)** [![GitHub stars](https://img.shields.io/github/stars/formbricks/formbricks?style=social&color=white)](https://github.com/formbricks/formbricks/stargazers)  
+4. **[Formbricks](https://github.com/formbricks/formbricks)** [![GitHub_Stars](https://img.shields.io/github/stars/formbricks/formbricks?style=social&color=white)](https://github.com/formbricks/formbricks/stargazers)  
    ✨ Open-source experience management & in-app micro-survey suite. Essential companion to in-app learning for capturing user feedback at critical onboarding milestones, CSAT, and NPS directly inside web and mobile apps.  
    `License: AGPL-3.0` • `Stack: Next.js / TypeScript / Tailwind CSS`
 
-5. **[React Joyride](https://github.com/gilbarbara/react-joyride)** [![GitHub stars](https://img.shields.io/github/stars/gilbarbara/react-joyride?style=social&color=white)](https://github.com/gilbarbara/react-joyride/stargazers)  
+5. **[React Joyride](https://github.com/gilbarbara/react-joyride)** [![GitHub_Stars](https://img.shields.io/github/stars/gilbarbara/react-joyride?style=social&color=white)](https://github.com/gilbarbara/react-joyride/stargazers)  
    ✨ Production-grade React guided tour library powering onboarding flows at thousands of companies. Provides customizable beacons, controlled/uncontrolled tour modes, custom tooltips, scrolling anchors, and Next.js App Router compatibility.  
    `License: MIT` • `Stack: React / TypeScript`
 
-6. **[Bootstrap Tour](https://github.com/sorich87/bootstrap-tour)** [![GitHub stars](https://img.shields.io/github/stars/sorich87/bootstrap-tour?style=social&color=white)](https://github.com/sorich87/bootstrap-tour/stargazers)  
+6. **[Bootstrap Tour](https://github.com/sorich87/bootstrap-tour)** [![GitHub_Stars](https://img.shields.io/github/stars/sorich87/bootstrap-tour?style=social&color=white)](https://github.com/sorich87/bootstrap-tour/stargazers)  
    ✨ Quick and easy product tours built on Twitter Bootstrap popovers. Allows developers to create clean guided walkthroughs with automatic step progression and local storage state persistence.  
    `License: Apache-2.0` • `Stack: JavaScript / Bootstrap`
 
-7. **[Hopscotch](https://github.com/linkedin/hopscotch)** [![GitHub stars](https://img.shields.io/github/stars/linkedin/hopscotch?style=social&color=white)](https://github.com/linkedin/hopscotch/stargazers)  
+7. **[Hopscotch](https://github.com/linkedin/hopscotch)** [![GitHub_Stars](https://img.shields.io/github/stars/linkedin/hopscotch?style=social&color=white)](https://github.com/linkedin/hopscotch/stargazers)  
    ✨ Framework designed by LinkedIn to make it simple for developers to embed product tours into their pages. Includes multi-page tour support, custom callbacks, internationalization (i18n), and robust DOM state restoration.  
    `License: Apache-2.0` • `Stack: JavaScript / CSS`
 
-8. **[Reactour](https://github.com/elrumordelaluz/reactour)** [![GitHub stars](https://img.shields.io/github/stars/elrumordelaluz/reactour?style=social&color=white)](https://github.com/elrumordelaluz/reactour/stargazers)  
+8. **[Reactour](https://github.com/elrumordelaluz/reactour)** [![GitHub_Stars](https://img.shields.io/github/stars/elrumordelaluz/reactour?style=social&color=white)](https://github.com/elrumordelaluz/reactour/stargazers)  
    ✨ Tourist guide component package for React apps. Smooth SVG mask transitions highlighting target elements, customizable badges, step dots, and keyboard navigation controls.  
    `License: MIT` • `Stack: React / TypeScript`
 
-9. **[Laudspeaker](https://github.com/laudspeaker/laudspeaker)** [![GitHub stars](https://img.shields.io/github/stars/laudspeaker/laudspeaker?style=social&color=white)](https://github.com/laudspeaker/laudspeaker/stargazers)  
+9. **[Laudspeaker](https://github.com/laudspeaker/laudspeaker)** [![GitHub_Stars](https://img.shields.io/github/stars/laudspeaker/laudspeaker?style=social&color=white)](https://github.com/laudspeaker/laudspeaker/stargazers)  
    ✨ Open-source customer engagement and onboarding platform (alternative to Appcues, Pendo, Braze). Design visual multi-channel onboarding journeys, event-triggered notifications, and interactive in-app guides with self-hosting support.  
    `License: AGPL-3.0` • `Stack: TypeScript / Node.js`
 
-10. **[Vue Tour](https://github.com/pulsardev/vue-tour)** [![GitHub stars](https://img.shields.io/github/stars/pulsardev/vue-tour?style=social&color=white)](https://github.com/pulsardev/vue-tour/stargazers)  
+10. **[Vue Tour](https://github.com/pulsardev/vue-tour)** [![GitHub_Stars](https://img.shields.io/github/stars/pulsardev/vue-tour?style=social&color=white)](https://github.com/pulsardev/vue-tour/stargazers)  
     ✨ Lightweight, customizable tour plugin for Vue.js applications (supporting Vue 2 and Vue 3). Provides easy step configuration, slot-based UI overrides, and custom CSS styling for contextual onboarding.  
     `License: MIT` • `Stack: Vue.js / JavaScript`
 
-11. **[Usertour](https://github.com/usertour/usertour)** [![GitHub stars](https://img.shields.io/github/stars/usertour/usertour?style=social&color=white)](https://github.com/usertour/usertour/stargazers)  
+11. **[Usertour](https://github.com/usertour/usertour)** [![GitHub_Stars](https://img.shields.io/github/stars/usertour/usertour?style=social&color=white)](https://github.com/usertour/usertour/stargazers)  
     ✨ Open-source user onboarding and product adoption platform designed as a self-hostable alternative to Userflow and Appcues. Create interactive tours, checklists, and feedback surveys with complete control over user data.  
     `License: AGPL-3.0` • `Stack: TypeScript / Docker`
 
-12. **[Onborda](https://github.com/uixmat/onborda)** [![GitHub stars](https://img.shields.io/github/stars/uixmat/onborda?style=social&color=white)](https://github.com/uixmat/onborda/stargazers)  
+12. **[Onborda](https://github.com/uixmat/onborda)** [![GitHub_Stars](https://img.shields.io/github/stars/uixmat/onborda?style=social&color=white)](https://github.com/uixmat/onborda/stargazers)  
     ✨ Modern, animated product tour library specifically designed for Next.js and Tailwind CSS applications. Powered by Framer Motion with customizable steps, floating cards, and route changes.  
     `License: MIT` • `Stack: Next.js / React / Framer Motion`
 
-13. **[Joyride](https://github.com/zurb/joyride)** *(Foundation)* [![GitHub stars](https://img.shields.io/github/stars/zurb/joyride?style=social&color=white)](https://github.com/zurb/joyride/stargazers)  
+13. **[Joyride](https://github.com/zurb/joyride)** *(Foundation)* [![GitHub_Stars](https://img.shields.io/github/stars/zurb/joyride?style=social&color=white)](https://github.com/zurb/joyride/stargazers)  
     ✨ Foundation's classic tour plugin for guiding users through responsive interfaces, feature releases, and onboarding flows with customizable modal tooltips.  
     `License: MIT` • `Stack: JavaScript / jQuery`
 
-14. **[Tourguide.js](https://github.com/LikaloLLC/tourguide.js)** [![GitHub stars](https://img.shields.io/github/stars/LikaloLLC/tourguide.js?style=social&color=white)](https://github.com/LikaloLLC/tourguide.js/stargazers)  
+14. **[Tourguide.js](https://github.com/LikaloLLC/tourguide.js)** [![GitHub_Stars](https://img.shields.io/github/stars/LikaloLLC/tourguide.js?style=social&color=white)](https://github.com/LikaloLLC/tourguide.js/stargazers)  
     ✨ Simple, responsive, vanilla JS library for creating interactive walkthroughs, feature demonstrations, and product tours with zero dependencies.  
     `License: MIT` • `Stack: TypeScript / JavaScript`
 
-15. **[ngx-tour](https://github.com/isaacplmann/ngx-tour)** [![GitHub stars](https://img.shields.io/github/stars/isaacplmann/ngx-tour?style=social&color=white)](https://github.com/isaacplmann/ngx-tour/stargazers)  
+15. **[ngx-tour](https://github.com/isaacplmann/ngx-tour)** [![GitHub_Stars](https://img.shields.io/github/stars/isaacplmann/ngx-tour?style=social&color=white)](https://github.com/isaacplmann/ngx-tour/stargazers)  
     ✨ Product tour framework built natively for Angular applications. Ships with pre-packaged adapters for ng-bootstrap, ngx-bootstrap, and Angular Material popovers.  
     `License: MIT` • `Stack: Angular / TypeScript`
 
-16. **[Tour Kit](https://github.com/domidex01/tour-kit)** [![GitHub stars](https://img.shields.io/github/stars/domidex01/tour-kit?style=social&color=white)](https://github.com/domidex01/tour-kit/stargazers)  
+16. **[Tour Kit](https://github.com/domidex01/tour-kit)** [![GitHub_Stars](https://img.shields.io/github/stars/domidex01/tour-kit?style=social&color=white)](https://github.com/domidex01/tour-kit/stargazers)  
     ✨ Modular developer library for code-first user onboarding. Extremely lightweight (<8KB gzipped), delivering composable packages for product tours, checklist widgets, hints, and local analytics tracking.  
     `License: MIT` • `Stack: TypeScript`
 
-17. **[UDAN Agent Client](https://github.com/Digital-Assistant/Digital_Assistant_Client)** [![GitHub stars](https://img.shields.io/github/stars/Digital-Assistant/Digital_Assistant_Client?style=social&color=white)](https://github.com/Digital-Assistant/Digital_Assistant_Client/stargazers)  
+17. **[UDAN Agent Client](https://github.com/Digital-Assistant/Digital_Assistant_Client)** [![GitHub_Stars](https://img.shields.io/github/stars/Digital-Assistant/Digital_Assistant_Client?style=social&color=white)](https://github.com/Digital-Assistant/Digital_Assistant_Client/stargazers)  
     ✨ Open-source AI-powered Digital Adoption Platform (DAP) client. Uses generative AI sequences and crowdsourced step-by-step guides for contextual accessibility and in-app assistive guidance.  
     `License: AGPL-3.0` • `Stack: Python / JavaScript`
 
-18. **[Project Wingman Backend](https://github.com/avinashgaurav/project-wingman)** [![GitHub stars](https://img.shields.io/github/stars/avinashgaurav/project-wingman?style=social&color=white)](https://github.com/avinashgaurav/project-wingman/stargazers)  
+18. **[Project Wingman Backend](https://github.com/avinashgaurav/project-wingman)** [![GitHub_Stars](https://img.shields.io/github/stars/avinashgaurav/project-wingman?style=social&color=white)](https://github.com/avinashgaurav/project-wingman/stargazers)  
     ✨ Self-hosted AI sales enablement and real-time coaching infrastructure. Orchestrates live agent analysis (sentiment, agenda pacing, objections, and validation) during calls and training simulations.  
     `License: MIT` • `Stack: Python / LLM Agents`
 
-19. **[Project Wingman ClientLens](https://github.com/avinashgaurav/project-wingman-ClientLens)** [![GitHub stars](https://img.shields.io/github/stars/avinashgaurav/project-wingman-ClientLens?style=social&color=white)](https://github.com/avinashgaurav/project-wingman-ClientLens/stargazers)  
+19. **[Project Wingman ClientLens](https://github.com/avinashgaurav/project-wingman-ClientLens)** [![GitHub_Stars](https://img.shields.io/github/stars/avinashgaurav/project-wingman-ClientLens?style=social&color=white)](https://github.com/avinashgaurav/project-wingman-ClientLens/stargazers)  
     ✨ Open-source browser extension sidebar copilot providing real-time in-app enablement, talking points, and live coaching prompts grounded in custom enterprise knowledge bases.  
     `License: MIT` • `Stack: TypeScript / Chrome Extension`
 
@@ -192,7 +192,7 @@ Contributions are welcome and highly appreciated! To maintain the quality and ac
 3. 📝 **Add or update entries**:
    - Provide verified product name, official website / repository link.
    - For SaaS products: Include specific starting tier prices (avoiding generic "Custom" text), specific free plan limits / trial days, and company size metrics.
-   - For Open-Source projects: Include the standard `[![GitHub stars](https://img.shields.io/github/stars/<owner>/<repo>?style=social&color=white)](https://github.com/<owner>/<repo>/stargazers)` badge, license, and brief description.
+   - For Open-Source projects: Include the standard `[![GitHub_Stars](https://img.shields.io/github/stars/<owner>/<repo>?style=social&color=white)](https://github.com/<owner>/<repo>/stargazers)` badge, license, and brief description.
 4. 🚀 **Submit a Pull Request** with a concise description of your changes.
 
 ---
